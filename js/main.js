@@ -12,7 +12,7 @@ userNameClasess.forEach(item => {
   item.innerText = userName;
 });
 
-const URL_API = 'https://github.com/Masianuy/CRM-Dashboard/blob/main/db.json';
+const URL_API = '../db.json';
 const tbody = document.querySelector('tbody');
 const paginationNumbers = document.getElementById("pagination-numbers");
 const nextButton = document.getElementById("btn_next");
